@@ -35,9 +35,9 @@ const AddCity = () => {
 
   return (
     <form className='city-form' onSubmit={citySubmitHandler}>
-      <Input ref={capitalRef} type="text" label="Capital" />
-      <Input ref={countryRef} type="text" label="Country" />
-      <Input ref={imageRef} type="text" label="Image Link" />
+      <Input id="addCity" ref={capitalRef} type="text" label="Capital" />
+      <Input id="addCountry" ref={countryRef} type="text" label="Country" />
+      <Input id="addImage" ref={imageRef} type="text" label="Image Link" />
       <Button>
         Add City
       </Button>

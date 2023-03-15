@@ -10,7 +10,8 @@
     "test": "vitest",
     "test:ci": "vitest run",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "test:e2e": "npx cypress run"
   },
   "dependencies": {
     "@vitest/coverage-c8": "^0.29.2",
@@ -27,6 +28,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "cypress": "^12.8.0",
     "jsdom": "^21.1.1",
     "vite": "^4.1.0",
     "vitest": "^0.29.2"
