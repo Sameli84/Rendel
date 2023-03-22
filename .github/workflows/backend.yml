@@ -51,3 +51,4 @@ jobs:
     steps:
       - name: Trigger the deploy on Render
         run: curl -X GET ${{ secrets.RENDER_TRIGGER }}
+

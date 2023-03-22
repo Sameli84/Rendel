@@ -12,6 +12,19 @@
       "database": "example_db",
       "username": "root",
       "password": "example"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "mydb.tamk.fi",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "TAMK DB Server",
+      "database": "dbdmsaja1",
+      "username": "dmsaja",
+      "password": "zaRi1v81"
     }
   ]
 }
