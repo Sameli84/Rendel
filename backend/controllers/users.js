@@ -3,7 +3,7 @@ const { v4 } = require('uuid');
 const jwt = require('jsonwebtoken');
 
 const users = require('../models/users');
-
+/*
 const signUpUser = async (req, res) => {
   const { name, email, password} = req.body;
 
@@ -102,3 +102,4 @@ module.exports = {
   loginUser,
   signUpUser
 }
+*/
