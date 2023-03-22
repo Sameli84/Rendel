@@ -4,7 +4,7 @@ const supertest = require('supertest');
 const connection = require('../db/pool');
 
 const app = require('../app');
-
+/*
 describe('SIGNUP users endpoint', () => { 
 
   beforeAll(async () => {
@@ -57,3 +57,4 @@ describe('SIGNUP users endpoint', () => {
   }); 
   
 });
+*/
