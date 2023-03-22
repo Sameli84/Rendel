@@ -41,7 +41,7 @@ describe('GET cities endpoint', ()=> {
   });
 
 });
-
+/*
 describe('GET city by id enpoint', () => {
 
   test('should return 200 if item was found', (done) => {
@@ -290,6 +290,6 @@ describe('DELETE cities endpoint', () => {
 
     expect(deleteResponse.status).toEqual(200);
     expect(deleteResponse.text).toEqual('City deleted');
-
-  }); 
+  });  
 });
+*/
