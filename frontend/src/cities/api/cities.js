@@ -23,7 +23,7 @@ export const createCity = async ({ capital, country, image, token }) => {
 
 export const deleteCity = async ({id, token}) => {
   const res = await fetch(
-    "http://localhost:5000/api/cities/" + id,
+    `${import.meta.env.VITE_API_URL}/api/cities/${id}`,
     {
       method: 'DELETE',
       headers: {

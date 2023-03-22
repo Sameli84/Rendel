@@ -6,7 +6,8 @@ const users = require('./routes/users');
 const app = express();
 app.use(cors({
   origin: [
-    'http://localhost:5173'
+    'http://localhost:5173',
+    'https://my-rendel-backend.onrender.com'
   ] 
 }));
 app.use(express.json());
