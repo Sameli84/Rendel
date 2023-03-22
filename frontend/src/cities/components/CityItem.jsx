@@ -1,4 +1,3 @@
-
 import React, { useContext, useState } from "react";
 import { useMutation } from 'react-query';
 
@@ -6,7 +5,7 @@ import Card from '../../shared/components/card/Card';
 import Button from '../../shared/components/button/Button';
 import Modal from '../../shared/components/modal/Modal';
 
-import { AuthContext } from '../../shared/context/auth-context';
+import { AuthContext } from "../../shared/context/auth-context";
 import { deleteCity } from "../api/cities";
 
 import './CityItem.css';
