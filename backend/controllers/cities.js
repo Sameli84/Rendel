@@ -79,5 +79,3 @@ module.exports = {
   deleteCity,
   getCities
 };
-
-// TEST WORKFLOWS 6
