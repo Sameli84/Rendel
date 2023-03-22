@@ -49,5 +49,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger the deploy on Render
-        run: curl -X GET ${{ secrets.RENDER_TRIGGER }}
+        run: curl -X GET ${{ secrets.RENDEL_TRIGGER }}
 
